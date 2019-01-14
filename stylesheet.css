@@ -7,8 +7,20 @@
 	
 
 }
-header>img{
-	text-align: center;
+.logotop{
+	/* text-align: center; */
+	
+	/* transition: height: 4s ease-in: 2s;
+	transition-delay: 2s; */
+	 /* this is the time it takes to rotate 180 deg ease-in defines the start to take 3s */
+	transition: width 2s, height 2s, transform 5s;
+}
+
+
+.logotop:hover {
+width: 500px;
+height: 200px;
+transform: rotate(180deg);
 }
 
 
