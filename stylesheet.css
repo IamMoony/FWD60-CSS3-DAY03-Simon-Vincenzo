@@ -1,0 +1,44 @@
+.topsection {
+	background-color: lightgrey;
+}
+
+header {
+
+}
+
+ul {
+	
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: lightblue;
+}
+
+li {
+	display: inline-block;
+
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+li a:hover {
+	background-color: red;
+}
+
+main a {
+	display: block;
+	background-color: grey;
+}
+
+main a:hover {
+	background-color: lightblue;
+}
+
+
+
+
+
+
