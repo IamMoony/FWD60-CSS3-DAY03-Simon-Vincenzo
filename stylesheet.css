@@ -1,10 +1,16 @@
+
+
 .topsection {
+	width: 100%;
+	height: auto;
 	background-color: lightgrey;
-}
-
-header {
+	
 
 }
+header>img{
+	text-align: center;
+}
+
 
 ul {
 	
@@ -27,17 +33,39 @@ li a {
 li a:hover {
 	background-color: red;
 }
+main{
+	width: 100%;
+	height: auto;
+}
+main:hover{
+	background-color: yellow;
+}
 
 main a {
 	display: block;
+	text-decoration: none;
 	background-color: grey;
+	color: black;
+
 }
 
 main a:hover {
+	background-color: yellow;
 	background-color: lightblue;
+	color: white;
+	border: 1px solid red;
+	font-size: 25px;
 }
 
+footer{
+	border: 1px solid red;
+	text-align: center;
+}
 
+footer:hover{
+	background-color: yellow;
+	border-radius: 50px;
+}
 
 
 
