@@ -1,0 +1,31 @@
+.box1{
+	width: 100px;
+	height: 100px;
+	border: 1px dotted red;
+	margin: 100px 0 100px 0;
+	transition: transform 5s,  background-color 3s; 
+
+}
+.box1:hover{
+	transform: rotate(360deg);
+	background-image: linear-gradient(to bottom right, red,blue);
+	
+	 
+
+
+}
+
+.box2{
+	width: 200px;
+	height: 80px;
+	background-color: lightgreen;
+	border-radius: 20px;
+	margin-bottom: 100px;
+}
+
+.box3{
+	width: 300px;
+	height: 100px;
+	background-color: blue;
+	margin-bottom: 100px;
+}
